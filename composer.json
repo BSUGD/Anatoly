@@ -24,5 +24,15 @@
          ]
       }
     }
-  ]
+  ],
+  "autoload": {
+     "classmap": [
+       "AnatolyException.php",
+       "Line.php",
+       "Quadratic.php",
+       "Logger.php",
+       "composer.json",
+       "composer.lock"
+     ]
+  }
 }
