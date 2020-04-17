@@ -1,5 +1,5 @@
 {
-  "name": "trpo/anatoly",
+  "name": "anatoly",
   "type": "package",
   "require": {
     "core": "@dev"
