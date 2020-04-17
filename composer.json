@@ -24,5 +24,10 @@
          ]
       }
     }
-  ]
+  ],
+  "autoload": {
+    "classmap": {
+      "Anatoly\\": "../../Anatoly"
+    }
+  }
 }
