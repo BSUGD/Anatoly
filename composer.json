@@ -1,0 +1,28 @@
+{
+  "name": "trpo/anatoly",
+  "type": "package",
+  "require": {
+    "core": "@dev"
+  },
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "core",
+        "source": {
+          "type": "git",
+          "url": "https://github.com/rok9ru/trpo-core.git",
+          "reference": "master"
+        },
+        "version": "@dev"
+      },
+      "autoload": {
+    	   "classmap": [
+           "EquationInterface.php",
+           "LogAbstract.php",
+           "LogInterface.php"
+         ]
+      }
+    }
+  ]
+}
